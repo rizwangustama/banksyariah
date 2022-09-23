@@ -7,6 +7,8 @@
     <title>BHC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -44,7 +46,7 @@
                     @apply text-5xl font-bold;
                 }
                 .heading-2 {
-                    @apply text-[28px] font-bold;
+                    @apply text-[28px];
                 }
                 .heading-3 {
                     @apply text-lg font-bold;
@@ -57,9 +59,10 @@
    
 </head>
 <body>
+    <!-- Section Choose -->
     <div class="should-choose bg-background py-[120px]">
         <div class="container">
-            <h1 class="heading-2 text-center">Why Should Choose Us?</h1>
+            <h1 class="heading-2 text-center font-bold text-dark">Why Should Choose Us?</h1>
             <div class="grid grid-cols-4 gap-6 pt-10">
                 <!-- card 1 -->
                 <div class="card-choose bg-white rounded-3xl border border-black">
@@ -70,7 +73,7 @@
                             <p class="content-1 text-lightGray">Get your special discount by using our reservation</p>
                         </div>
                     </div>
-                    <a href="http://" class="text-base font-semibold bg-primary w-full flex text-center justify-center text-white py-6 rounded-t-xl rounded-b-3xl">View Details</a>
+                    <a href="http://" class="text-base font-semibold bg-primary w-full flex text-center justify-center text-white py-6 rounded-t-xl rounded-b-3xl">View Details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                 </div>
                 <!-- End Card 1 -->
                  <!-- card 1 -->
@@ -113,5 +116,58 @@
           
         </div>
     </div>
+    <!-- Section End Choose -->
+
+    <!-- About -->
+    <div class="about">
+        <div class="flex">
+            <div class="w-4/12">
+                <img class="h-full object-cover" src="./assets//images/about.png" alt="">
+            </div>
+            <div class="w-8/12 bg-primary relative">
+                <img class="right-0 pt-8 absolute" src="./assets//images/rose-about.svg"  alt="">
+                <div class="container ml-0 pl-[120px] py-[120px] about-body">
+                    <h1 class="heading-2 font-medium text-white">About PT BPRS HIK MCI</h1>
+                    <p class="text-white mt-[28px] leading-relaxed">
+                        PT Bank Pembiayaan Rakyat Syariah Harta Insan Karimah Mitra Cahaya Indonesia atau dapat disingkat PT BPRS HIK MCI berkantor pusat di Jalan Kaliurang KM 10, No 28 Ngaglik Sleman D.I.Yogyakarta, mengawali perjalanan bisnisnya pada tanggal 11 Januari 2008 telah mengalami perjalanan berliku dan penuh tantangan. Pada tahun 2015 PT Induk Harta Insan Karimah Grup yang beranggotakan komunitas Alumni HMI FE UGM menambah permodalan Bank Syariah HIK MCI serta pergantian jajaran pengurus pada tahun 2016 menjadikan permulaan transformasi Bank Syariah HIK MCI. 
+                    </p>
+                    <a href="" class="text-white border flex w-fit mt-16 border-white rounded-xl py-4 px-7">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Section Appreciation -->
+    <div class="appreciation bg-backround py-[120px]">
+        <div class="container">
+            <h1 class="heading-2 font-bold text-center">Appreciation </h1>
+            <div class="grid grid-cols-4 gap-6 mt-10">
+                <div class="app-card border bg-white border-black rounded-3xl flex justify-center items-center h-[288px]">
+                    <img src="./assets/images/appreciation.png" alt="">
+                </div>
+                <div class="app-card border bg-white border-black rounded-3xl flex justify-center items-center h-[288px]">
+                    <img src="./assets/images/appreciation.png" alt="">
+                </div>
+                <div class="app-card border bg-white border-black rounded-3xl flex justify-center items-center h-[288px]">
+                    <img src="./assets/images/appreciation.png" alt="">
+                </div>
+                <div class="app-card border bg-white border-black rounded-3xl flex justify-center items-center h-[288px]">
+                    <img src="./assets/images/appreciation.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Appreciation -->
+    <div class="feature-ojk bg-[#FFB800] py-10">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <div class="items justify-self-center">1</div>
+                <div class="items justify-self-center">2</div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
